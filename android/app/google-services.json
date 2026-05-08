@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "642755817217",
+    "project_id": "petguardian-69cba",
+    "storage_bucket": "petguardian-69cba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642755817217:android:a49739fa9d09d1efadb500",
+        "android_client_info": {
+          "package_name": "com.example.petguardian"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUg4TVwMAAfazuTXMam-u6vlU9fOkNmAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

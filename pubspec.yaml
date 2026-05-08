@@ -1,0 +1,89 @@
+name: release_ready_flutter_app
+description: "A release-ready PetGuardian Flutter application."
+publish_to: 'none'
+
+# Academic release versioning:
+# version name = 1.0.0, build number = 1.
+# Android maps these to versionName and versionCode.
+# iOS maps these to CFBundleShortVersionString and CFBundleVersion.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  shared_preferences: ^2.5.5
+  url_launcher: ^6.3.1
+  firebase_core: ^4.7.0
+  firebase_auth: ^6.4.0
+  cloud_firestore: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/accessories.jpg
+    - assets/images/bath.jpg
+    - assets/images/clothes.jpg
+    - assets/images/community.jpg
+    - assets/images/course_1.jpg
+    - assets/images/course_2.jpg
+    - assets/images/course_3.jpg
+    - assets/images/course_4.jpg
+    - assets/images/doctor_anna.jpg
+    - assets/images/doctor_anna_new.png
+    - assets/images/doctor_maria_new.png
+    - assets/images/doctor_vernon.jpg
+    - assets/images/doctor_vernon_new.png
+    - assets/images/ear.jpg
+    - assets/images/event.jpg
+    - assets/images/event_new.png
+    - assets/images/food.jpg
+    - assets/images/friends_new.png
+    - assets/images/grooming.jpg
+    - assets/images/grooming_new.png
+    - assets/images/hair.jpg
+    - assets/images/healthy.jpg
+    - assets/images/nail.jpg
+    - assets/images/pet_store_new.png
+    - assets/images/shop_pets.jpg
+    - assets/images/toys.jpg
+    - assets/images/training_dog.jpg
+    - assets/images/training_new.png
+    - assets/images/vet_doctor.jpg
+    - assets/images/vet_doctor_alt.jpg
+    - assets/images/veterinary.png
+    - assets/icons/
+    - assets/splash/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/petguardian_icon.png
+  adaptive_icon_background: "#5F86B8"
+  adaptive_icon_foreground: assets/icons/petguardian_icon.png
+  min_sdk_android: 21
+
+flutter_native_splash:
+  color: "#5F86B8"
+  image: assets/splash/petguardian_logo.png
+  android: true
+  ios: true
+  web: false
+  android_12:
+    color: "#5F86B8"
+    image: assets/splash/petguardian_logo.png
